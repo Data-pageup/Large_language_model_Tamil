@@ -82,30 +82,25 @@ The pretrained checkpoint, SFT checkpoint, tokenizer, and model configuration ar
 
 ## Current Limitations
 
-The current SFT model produces repetitive and incoherent text during generation. The decrease in training loss did not translate into coherent responses.
+The current model produces repetitive and incoherent text during generation. Although training loss decreased, this did not translate into coherent Tamil responses.
 
-The experiment used a small SFT dataset and limited training resources. Further work is needed to improve data coverage, training, and evaluation.
+The model was trained on approximately 58 million tokens, with a limited pretraining duration, and fine-tuned using only 20 conversation examples over 5 epochs.
+
+Further training and improvements to the dataset are required to improve generation quality.
 
 ## Future Work
 
-* Expand the Tamil pretraining corpus.
-* Increase the diversity and size of the SFT dataset.
-* Experiment with additional training steps and model configurations.
+* Expand the Tamil pretraining corpus with more high-quality text.
+* Extend pretraining to **at least 20 epochs**.
+* Increase the size and diversity of the Tamil SFT dataset.
+* Experiment with additional SFT training and hyperparameter configurations.
 * Evaluate generation quality using dedicated Tamil test sets.
 * Improve inference and deployment.
 
-## Tech Stack
-
-* Python
-* PyTorch
-* Hugging Face Tokenizers
-* Google Colab
-
-
-
 ## Disclaimer
 
-This is an experimental learning and research project. The current model is not production-ready and should not be treated as a reliable general-purpose Tamil assistant.
+This is an experimental Tamil language-model project. The current checkpoint is not production-ready and should not be considered a reliable general-purpose Tamil assistant. Further pretraining, expanded SFT data, and evaluation are planned.
+
 
 ## Author
 
