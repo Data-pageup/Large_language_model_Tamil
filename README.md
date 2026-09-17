@@ -98,26 +98,7 @@ The experiment used a small SFT dataset and limited training resources. Further 
 * Hugging Face Tokenizers
 * Google Colab
 
-## Repository Structure
 
-```text
-Large_language_model_Tamil/
-├── model/
-│   ├── config.py
-│   └── transformer.py
-├── notebooks/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_tokenization.ipynb
-│   ├── 03_pretraining.ipynb
-│   └── 04_sft.ipynb
-├── data/
-│   └── sft/
-│       └── tamil_sft.jsonl
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── LICENSE
-```
 
 ## Disclaimer
 
