@@ -1,5 +1,5 @@
 # Tamil LLM — 23M Parameters
-**[View Tamil LLM on Hugging Face](https://huggingface.co/data-pageup/tamil-llm-23m)**
+**[View Tamil LLM on Hugging Face](https://huggingface.co/AG-dataScientist/tamil-llm-23m)**
 
 
 
