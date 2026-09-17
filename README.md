@@ -1,4 +1,7 @@
 # Tamil LLM — 23M Parameters
+**[View Tamil LLM on Hugging Face](https://huggingface.co/data-pageup/tamil-llm-23m)**
+
+
 
 A Tamil language model built from scratch using a custom BPE tokenizer and a decoder-only Transformer architecture. The project covers data preparation, tokenization, pretraining, and supervised fine-tuning (SFT), implemented using PyTorch and Google Colab.
 
